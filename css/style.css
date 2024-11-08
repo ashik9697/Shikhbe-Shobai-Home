@@ -1,0 +1,547 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Open Sans", sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*global css start*/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+/*global css end*/
+
+
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: #eee;
+}
+.inner-header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.logo img{
+	width: 150px;
+}
+.manu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.manu ul li a {
+	display: block;
+	margin: 22px 15px 0px;
+	color: #0665C4;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: capitalize;
+ }
+ .buttons-group{
+ 	display: flex;
+
+ }
+ .btn-info {
+ 	display: inline-block;
+ 	padding: 12px 30px;
+ 	margin: 8px 0px 0px 10px;
+ 	font-size: 16px;
+ 	font-weight: 600;
+ 	background: #0665c4;
+ 	color: #fff;
+ 	border: 1px solid #0665c4;
+ 	transition: 1s;
+ }
+ .btn-info:hover{
+ 	background: #00AEEF;
+ 	color: #fff;
+ 	border: 1px solid #00AEEF;
+ }
+ .banner-section{
+ 	width: 100%;
+ 	padding: 80px 0px;
+ 	background: url("../images/Hero-BG.jpg") center no-repeat;
+ 	background-size: cover;
+ }
+ .inner-banner{
+ 	display: flex;
+ 	align-items: center;
+ }
+ .left-banner{
+     flex-basis: 45%;
+ }
+ .left-banner h1{
+     font-size: 44px;
+     font-weight: 700;
+     line-height: 1.2em;
+     color: #0665c4;
+ }
+  .left-banner p{
+ 	  font-size: 22px;
+     font-weight: 300;
+     line-height: 1.5em;
+     color: #0665c4;
+     margin: 15px 0px;
+ }
+  .left-banner .btn-info {
+ 	display: inline-block;
+ 	padding: 12px 30px;
+ 	margin: 8px 0px 0px 0px;
+ 	border-radius: 5px;;
+ 	font-size: 16px;
+ 	font-weight: 600;
+ 	background: #0665c4;
+ 	color: #fff;
+ 	border: 1px solid #0665c4;
+ 	transition: 1s;
+ }
+ .right-banner{
+ 	 flex-basis: 55%;
+ 	 text-align: center;
+ }
+ .right-banner img{
+ 	width: 100%;
+ }
+ .feature-section{
+ 	width: 100%;
+ 	padding: 80px 0px;
+ }
+ .inner-feature{
+ 	display: flex;
+ }
+ .graduates{
+ 	display: flex;
+ 	flex-basis: 30%;
+ 	background: #F9799A;
+ 	margin: 0px 10px;
+ 	padding: 25px;
+ 	border-radius: 10px;
+}
+ .earned{
+ 	display: flex;
+ 	flex-basis: 30%;
+ 	background: #61C3D7;
+ 	margin: 0px 10px;
+ 	padding: 25px;
+ 	border-radius: 10px;
+}
+ .members{
+ 	display: flex;
+ 	flex-basis: 30%;
+ 	background: #0E72CB;
+ 	margin: 0px 10px;
+ 	padding: 25px;
+ 	border-radius: 10px;
+}
+.icon{
+	flex-basis: 15%;
+}
+.icon .fa{
+	font-style: 24px;
+	color: #fff;
+}
+.content{
+	flex-basis: 85%;
+}
+.content h4{
+     font-size: 22px;
+     font-weight: 700;
+     line-height: 1.2m;
+     color: #fff;
+ }
+.content p{
+	font-size: 14px;
+     font-weight: 400;
+     line-height: 1.7m;
+     color: #fff;
+     margin: 15px 0px 0px;
+}
+
+
+
+
+.banner-section-2{
+ 	width: 100%;
+ 	padding: 80px 0px;
+ 	background-size: cover;
+ }
+ .inner-banner-2{
+ 	display: flex;
+ 	align-items: center;
+ }
+ .left-banner-2{
+     flex-basis: 50%;
+ }
+ .left-banner-2 h4{
+ 	font-size: 24PX;
+ 	font-weight: 300;
+ }
+ .left-banner-2 h1{
+     font-size: 44px;
+     font-weight: 700;
+     line-height: 1.2em;
+     color: #07324F;
+ }
+  .left-banner-2 p{
+ 	  font-size: 20px;
+     font-weight: 300;
+     line-height: 1.5em;
+     color: #07324F;
+     margin: 20px 0px;
+ }
+  .left-banner-2 .btn-info {
+ 	display: inline-block;
+ 	padding: 12px 30px;
+ 	margin: 8px 0px 0px 0px;
+ 	border-radius: 5px;;
+ 	font-size: 16px;
+ 	font-weight: 600;
+ 	background: #0665c4;
+ 	color: #fff;
+ 	border: 1px solid #0665c4;
+ 	transition: 1s;
+ }
+ .btn-info:hover{
+    background: #00AEEF;
+    color: #fff;
+    border: 1px solid #00AEEF;
+ }
+ .right-banner-2{
+ 	 flex-basis: 50%;
+ 	 text-align: center;
+ }
+ .right-banner-2 img{
+ 	width: 100%;
+ }
+  
+
+
+.banner-section-3{
+ 	width: 100%;
+ 	padding: 80px 0px;
+ 	background-size: cover;
+ }
+ .inner-banner-3{
+ 	display: flex;
+ 	align-items: center;
+ }
+ .right-banner-3{
+     flex-basis: 50%;
+ }
+.right-banner-3 h4 {
+    font-size: 24PX;
+    font-weight: 300;
+    margin: 10px 48px;
+}
+.right-banner-3 h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #07324F;
+    margin: 10px 48px;
+}
+.right-banner-3 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #07324F;
+    margin: 10px 48px;
+}
+ .right-banner-3 .btn-info {
+    display: inline-block;
+    padding: 12px 33px;
+    margin: 12px 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #0665c4;
+    color: #fff;
+    border: 1px solid #0665c4;
+    transition: 1s;
+}
+.btn-info:hover{
+    background: #00AEEF;
+    color: #fff;
+    border: 1px solid #00AEEF;
+ }
+ .left-banner-3{
+ 	 flex-basis: 50%;
+ 	 text-align: center;
+ }
+ .left-banner-3 img{
+ 	width: 100%;
+ }
+
+
+
+.banner-section-4{
+    width: 100%;
+    padding: 80px 0px;
+    background-size: cover;
+}
+.inner-banner-4{
+    display: flex;
+    align-items: center;
+}
+.left-banner-4{
+    flex-basis: 50%;
+}
+.left-banner-4 h4{
+    font-size: 24px;
+    font-weight: 300;
+}
+.left-banner-4 h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2em;
+    columns: #7324F;
+}
+.left-banner-4 p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #7324F;
+    margin: 20px 0px;
+}
+.left-banner-4 .btn-info {
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 8px 0px 0px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #665c4;
+    transition: 1s;
+}
+.btn-info:hover{
+    background: #00AEEF;
+    color: #fff;
+    border: 1px solid #00AEEF;
+ }
+ .right-banner-4{
+     flex-basis: 50%;
+     text-align: center;
+ }
+ .right-banner-4 img{
+    width: 100%;
+ }
+
+
+
+/* Top Courses Css Start */
+
+.top-courses{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/background.jpg") center no-repeat;
+    background-size: cover;
+}
+.inner-top-courses{
+    width: 100%;
+}
+.top-top-courses{
+    width: 100%;
+    margin: 0px auto;
+}
+.top-top-courses h1{
+    display: block;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.buttom-top-courses{
+    margin-top: 40px;
+}
+.courses{
+    display: flex;
+}
+.courses-content{
+    width: 100%;
+    flex-basis: 25%;
+    padding: 15px;
+    margin: 0px 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.courses1 .img-title{
+    width: 100%;
+    background: url("../images/digital-marketing.jpg") bottom left no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+.courses2 .img-title{
+    width: 100%;
+    background: url("../images/full-stack.jpg") bottom left no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+.courses3 .img-title{
+    width: 100%;
+    background: url("../images/graphic.jpg") bottom left no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+.courses4 .img-title{
+    width: 100%;
+    background: url("../images/shopify.jpg") bottom left no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+.img-title h3{
+    padding: 12px 0px;
+    font-size: 28px;
+    line-height: 0.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.img-title span{
+    font-size: 16px;
+}
+.courses-title{
+    padding: 15px 0px 0px 5px;
+}
+.courses-title h5{
+    font-size: 14px;
+    color: #000;
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.courses-details{
+    padding: 0px 5px 10px;
+}
+.courses-details p{
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+/* Top Courses Css End */
+
+
+/* Address Css Start */
+.address-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-address {
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding: 100px 60px 80px 60px;
+    background-color: #0e72cc;
+}
+.inner-address h2{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.inner-address p{
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.9;
+    margin-bottom: 1rem;
+}
+.address-content{
+    text-align: center;
+}
+/* Address Css End */
+
+
+
+/* Footer Css Start */
+.footer-section{
+    width: 100%;
+}
+.top-footer{
+    width: 100%;
+    padding: 30px 0 20px;
+}
+.inner-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    flex-basis: 25%;
+    padding: 0px 15px;
+}
+.box1 h5{
+    color: #0e72cc;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.box1 p{
+    color: #91a3bb;
+    font-weight: 400;
+    line-height: 1.9;
+    margin-bottom: 1rem;
+}
+.box1 ul{
+    list-style: none;
+}
+.box1 ul li a{
+    line-height: 28px;
+    color: #91a3bb;
+    transition: 0.4s ease-in;
+}
+.box1 ul li a:hover{
+    color: #0e72cc;
+    padding-left: 5px;
+}
+.inner-bottom{
+    width: 100%;
+}
+.inner-bottom img{
+    padding: 20px 0 0;
+    width: 100%;
+}
+.bottom-footer{
+    padding: 20px 0px;
+}
+.copyright{
+    text-align: center;
+}
+.copyright p {
+    margin: 0px auto;
+    padding: 0px;
+    color: #0e72cca1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+}
+.copyright p span{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/* Footer Css End */
